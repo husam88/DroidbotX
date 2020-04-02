@@ -23,7 +23,6 @@ pip install -e .
 2. Stable-Baselines (https://github.com/hill-a/stable-baselines for installation instructions)
 3. TensorFlow
 4. pip install opencv-python
-5. Humanoid (Optional) (https://github.com/yzygitzh/Humanoid for installation instructions, pyflann dependency will need to have Python code changed from 2 to 3 per instructions here: https://github.com/primetang/pyflann/issues/1#issuecomment-354001204 )
 
 ## How to run
 From terminal and droidbot directory run the "start_gym_env_q_learning.py" script. Example usage:
