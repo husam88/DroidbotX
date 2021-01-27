@@ -224,7 +224,7 @@ def main():
         return state, probs, event_ids
 
     state_function = {}
-    num_iterations = 100000
+    num_iterations = 1000
     EPSILON = 0.1
     Q_TABLE = []
     transitions_matrix = None
