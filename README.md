@@ -29,5 +29,5 @@ pip install -e .
 
 2. Add APK to APKs directory.
 3. From terminal and droidbot directory run the "start_gym_env_q_learning.py" script. Example usage:
-* python3 start_gym_env_q_learning.py -a my_apk_to_run.apk -o /my_output_dir/dqn_run_4 -is_emulator -policy gym 
+``` python3 start_gym_env_q_learning.py -a my_apk_to_run.apk -o /my_output_dir/dqn_run_4 -is_emulator -policy gym ```
 
