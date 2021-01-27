@@ -23,11 +23,11 @@ pip install -e .
 4. pip install opencv-python
 
 ## Usage
-1. Run Emulator or connect real Android device.
+1. Run Emulator or connect to real Android device using adb.
 *If you are using Android emulator. Install Android Studio, select the Android Emulator component in the SDK Tools tab of the SDK Manager. 
 *If you are using Android real device or multiple devices, you may need to use -d <device_serial> to specify the target device. The easiest way to determine a device's serial number is calling adb devices.
-
 2. Add APK to APKs directory.
-3. From terminal and droidbot directory run the "start_gym_env_q_learning.py" script. Example usage:
+3. From terminal and droidbot directory run the "start_gym_env_q_learning.py" script. Example usage: 
+
 ``` python3 start_gym_env_q_learning.py -a my_apk_to_run.apk -o /my_output_dir/dqn_run_4 -is_emulator -policy gym ```
 
