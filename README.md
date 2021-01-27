@@ -24,11 +24,13 @@ pip install -e .
 
 ## Usage
 1. Run Emulator or connect to real Android device using adb.
-
-*If you are using Android emulator. Install Android Studio, select the Android Emulator component in the SDK Tools tab of the SDK Manager. 
-*If you are using Android real device or multiple devices, you may need to use -d <device_serial> to specify the target device. The easiest way to determine a device's serial number is calling adb devices.
+    *If you are using Android emulator. Install Android Studio, select the Android Emulator component in the SDK Tools tab of the SDK Manager.
+    *If you are using Android real device or multiple devices, you may need to use -d <device_serial> to specify the target device. The easiest way to determine a device's serial number is calling adb devices.
 2. Add APP Under test to APKs directory.
 3. From terminal and droidbot directory run the "start_q_learning.py" script. Example usage: 
 
-``` python3 start_q_learning.py -a App_Under_Test.apk -o /my_output_dir/ -is_emulator -policy gym ```
+`python3 start_q_learning.py -a App_Under_Test.apk -o /my_output_dir/ -is_emulator -policy gym`
+
+4. In `my_output_dic directory` find `index.html` to view the UTG model.
+
 
